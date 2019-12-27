@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 import bom.pageobjectelement.LoginPage;
 
+
 public class BaseClass {
 	
 	
@@ -15,10 +16,15 @@ public class BaseClass {
 	public LoginPage lp; 
 	public static Logger logger;
 	public Properties configProp;
+	public ExtentsReportsClass extent;
+	 
+
 	
 	public static String randomeString(){
 		String generatedString1 =RandomStringUtils.randomAlphabetic(10);
 		return(generatedString1);
 	}
+	
+	
 
 }

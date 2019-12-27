@@ -17,6 +17,7 @@ public class LoginPage {
 	public WebDriver ldriver;
 	
     WaitHelper waithelper;
+    
 
 	public LoginPage(WebDriver rdriver) {
 		ldriver = rdriver;
