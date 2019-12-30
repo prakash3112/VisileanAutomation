@@ -1,0 +1,7 @@
+<suite name="VisileanAutomation">
+	<test name="Visilean">
+		<classes>
+			<class name="bom.runner.TestRunner" />
+		</classes>
+	</test>
+</suite>
